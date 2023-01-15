@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 64px;
+    padding: 16px;
+
+    font-family: 'Raleway', sans-serif;
+}
+
+.title {
+    font-size: 48px;
+    margin-bottom: 24px;;
+}
+
+.text {
+    font-size: 36px;
+    margin-bottom: 24px;;
+}
+
+a {
+    font-size: 24px;
+    color: rgb(90, 90, 90)
+}
+
+.workLink {
+    font-size: 36px;
+    color: #11615c
+}
+
+.linkContainer a {
+    padding-right: 24px;
+}

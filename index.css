@@ -34,3 +34,15 @@ a {
 .linkContainer a {
     padding-right: 24px;
 }
+
+.linkContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .linkContainer {
+      flex-direction: row;
+    }
+  }
